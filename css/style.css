@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 100%;
+    padding: 0px 9rem;
+}
+
+
+
+
+.first{
+    width: 100%;
+    background-color: #212529;
+    height: 50px;
+    display: flex;
+    
+}
+
+
+
+.left{
+    width: 50%;
+    padding-left: 9rem;
+    color: #fff;
+    padding-top: 15px;
+
+}
+
+.left a{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.right{
+    width: 50%;
+    padding-right: 9rem;
+    text-align: right;
+    
+    padding-top: 15px;
+    
+    
+}
+
+.right a{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.all{
+    width: 100%;
+    height: 40rem;
+    background-color:#212529 ;
+    position: relative;
+    padding: 200px 9rem;
+}
+
+.left2{
+    width: 50%;
+}
+
+.right2{
+    width: 30%;
+    background-color: #343A40;
+    height: 25rem;
+    position: absolute;
+    top: 30%;
+    right: 9rem;
+    
+}
+
+.left2 {
+    color: #fff;
+}
+
+.left2 a{
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.left2 .btn-1{
+    
+    border: 1px solid#0D6EFD;
+    border-radius: 7px;
+    background-color: #0D6EFD;
+    transition: .4s;
+    
+}
+
+.btn-2{
+    border: 1px solid#fff;
+    border-radius: 7px;
+    transition: .7s;
+   
+}
+
+.left2 .btn-2:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.left2 .btn-1:hover{
+   opacity: 0.7;
+}
+
+
+
+.left2 h1{
+    font-size: 3rem;
+    
+}
+
+.left2 p{
+    color: gray;
+    font-size: 24px;
+    padding: 40px 0px;
+}
+
+.right2 p{
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 30%;
+    color: grey;
+}
+
+.all2{
+    width: 100%;
+    display: flex;
+    padding-top: 4rem;
+}
+
+.left3{
+    width: 40%;
+}
+
+.right3{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    width: 50%;
+    padding: 20px 0rem;
+}
+
+.left3{
+    font-size: 2rem;
+}
+
+.box i{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #0D6EFD;
+}
+
+.box p{
+    padding-bottom: 15px;
+    
+    color: gray;
+}
+
+.simple{
+    width: 100%;
+    height:25rem ;
+    text-align: center;
+    padding-top: 6rem;
+    position: relative;
+}
+
+.simple em{
+    
+    padding-bottom: 25px;
+ 
+  font-size: 25px;
+}
+
+.simple img{
+    border-radius: 51px;
+    margin-top:2rem;
+}
+
+.simple b{
+    font-size: 20px;
+}
+
+.simple b::before{
+    content: '/Ceo,Pamodoro';
+    position: absolute;
+    top: 59%;
+    right: 37%;
+}
+
+.all4{
+    width: 100%;
+    height: 30rem;
+}
+
+.all4 .top4{
+    text-align: center;
+
+}
+
+.top4 p{
+    color: gray;
+    font-size: 23px;
+}
+
+.top4 h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.bottom .box{
+    width: 31%;
+    height: 13rem;
+    
+}
+
+.over{
+    
+    width: 100%;
+    height: 13rem;
+    padding-bottom: 30px;
+}
+
+.under{
+    width: 100%;
+    vertical-align: bottom;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 3px;
+    padding-top: 20px;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box .over p{
+    text-align: center;
+    font-size: 3rem;
+    color: #000;
+    padding-top: 4rem;
+    
+}
+
+.under a{
+    text-decoration:none ;
+    color: #000;
+    font-size: 20px;
+}
+
+.under p{
+    padding-top: 15px;
+
+}
+
+.over1{
+    background-color: rgb(184, 178, 178);
+    border-radius: 3px;
+}
+
+.over2{
+    background-color: rgb(136, 135, 135);
+    border-radius: 3px;
+}
+
+.over3{
+    background-color: rgb(85, 84, 84);
+    border-radius: 3px;
+}
+
+.all5{
+    width: 100%;
+    height: 10rem;
+    background-color: #1472FD;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.left5{
+    width: 100%;
+}
+
+.right5{
+    width: 50%;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.left5{
+    color: #fff;
+    padding-left: 30px;
+}
+
+.left5 h4{
+    font-size: 3rem;
+    
+}
+
+.left5 p{
+opacity: 0.6;
+padding-top: 15px;
+}
+
+.right5 p{
+    opacity: 0.6;
+}
+
+input{
+    padding: 10px 65px;
+    padding-bottom: 10px;
+}
+
+.right5 a{
+    text-decoration: none;
+    border: 1px solid#fff;
+    border-radius: 3px;
+    color: #fff;
+    padding: 9px 16px;
+}
+
+.right5 a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.last{
+    width: 100%;
+    height: 75px;
+    margin-top: 3rem;
+    background-color: #212529;
+    
+    display: flex;
+    align-items: center;
+}
+
+.lastleft{
+    width: 50%;
+    padding-left: 9rem;
+}
+
+.lastleft p{
+    color: #fff;
+
+
+}
+
+.lastright{
+    width: 50%;
+    padding-right: 9rem;
+    padding-left: 27rem;
+}
+
+.last .lastright a{
+    color: #fff;
+    
+    padding-right: 10px;
+}
+
